@@ -15,8 +15,9 @@ public class Template1 {
     public static void main(String[] args) {
         AAA aaa = new AAA();
         aaa.calculateTime();
+        System.out.println();
         
-        
+
     }
 
 }
