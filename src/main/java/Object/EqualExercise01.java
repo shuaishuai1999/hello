@@ -9,8 +9,8 @@ package Object;
 
 public class EqualExercise01 {
     public static void main(String[] args) {
-        Person person = new Person("jack", 10, '男');
-        Person person1 = new Person("jack", 20, '男');
+        Person person = new Person("jack", 10,'a');
+        Person person1 = new Person("jack", 20,'a');
 
 
         //1.==：既可以判断基本类型，又可以判断引用类型
