@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.Map</OriginalElement>
+  <nodes>
+    <node x="582.0" y="466.0">java.util.LinkedHashMap</node>
+    <node x="16.0" y="477.5">java.util.Properties</node>
+    <node x="224.99999999999997" y="105.0">java.util.TreeMap</node>
+    <node x="426.75" y="0.0">java.util.Map</node>
+    <node x="513.0" y="82.0">java.util.HashMap</node>
+    <node x="0.0" y="82.0">java.util.Hashtable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.Properties" target="java.util.Hashtable" relationship="GENERALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="0.0" y="166.0" />
+    </edge>
+    <edge source="java.util.TreeMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="0.0" y="-143.0" />
+      <point x="359.0" y="56.0" />
+      <point x="493.25" y="56.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.Hashtable" target="java.util.Map" relationship="REALIZATION">
+      <point x="0.0" y="-166.0" />
+      <point x="102.5" y="56.0" />
+      <point x="493.25" y="56.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.LinkedHashMap" target="java.util.HashMap" relationship="GENERALIZATION">
+      <point x="-54.0" y="-62.5" />
+      <point x="636.0" y="440.0" />
+      <point x="627.5" y="440.0" />
+      <point x="0.0" y="166.0" />
+    </edge>
+    <edge source="java.util.LinkedHashMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="54.0" y="-62.5" />
+      <point x="744.0" y="440.0" />
+      <point x="752.5" y="440.0" />
+      <point x="752.5" y="56.0" />
+      <point x="493.25" y="56.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.HashMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="0.0" y="-166.0" />
+      <point x="627.5" y="56.0" />
+      <point x="493.25" y="56.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="0.9296235679214403" showDependencies="false" x="399.0" y="295.5" />
+  <SelectedNodes>
+    <node>java.util.Properties</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>字段</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
