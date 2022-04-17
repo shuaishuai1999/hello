@@ -1,4 +1,4 @@
-package Chapter12.Throws;
+package Chapter12.exception.Throws;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

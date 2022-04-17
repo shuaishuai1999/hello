@@ -1,4 +1,4 @@
-package Chapter12.Exception_;
+package Chapter12.exception.Exception_;
 
 /**
  * @author shuaishuai

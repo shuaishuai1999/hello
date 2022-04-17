@@ -1,4 +1,4 @@
-package Chapter12.Try_catch;
+package Chapter12.exception.Try_catch;
 
 /**
  * @author shuaishuai
