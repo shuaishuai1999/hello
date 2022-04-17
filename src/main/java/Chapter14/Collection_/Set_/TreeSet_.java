@@ -28,7 +28,7 @@ public class TreeSet_ {
          * 2. 在 调用 treeSet.add("tom"), 在底层会执行到
          *          if (cpr != null) {//cpr 就是我们的匿名内部类(对象)
          *              do {
-         *              parent = t; //动态绑定到我们的匿名内部类(对象)
+         *              parent = t; //动态绑定到我们的匿名内部类(对象)compare
          *              ompare cmp = cpr.compare(key, t.key);
          *                  if (cmp < 0) t = t.left;
          *                  else if (cmp > 0)
@@ -44,6 +44,7 @@ public class TreeSet_ {
         TreeSet treeSet1 = new TreeSet(new Comparator() {
             @Override
             public int compare(Object o1, Object o2) {
+                //return ((String) o2).compareTo((String) o1);
                 return ((String) o1).length() - ((String) o2).length();
             }
         });

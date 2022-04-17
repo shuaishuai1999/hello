@@ -20,12 +20,14 @@ public class TreeMap_ {
         TreeMap treeMap = new TreeMap(new Comparator() {
             @Override
             public int compare(Object o1, Object o2) {
+                //return ((String) o2).compareTo((String) o1);
                 return ((String) o2).length() - ((String) o1).length();
             }
         });
         treeMap.put("a", "a");
         treeMap.put("ab", "ab");
         treeMap.put("abc", "abc");
+        treeMap.put("abc", "abcd");//加入不了，因为已有长度为3的数据
         System.out.println("treeMap= " + treeMap);
 
 

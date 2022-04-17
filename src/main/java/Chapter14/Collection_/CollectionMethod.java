@@ -61,7 +61,7 @@ public class CollectionMethod {
         list.removeAll(arrayList);
         System.out.println(list);//[聊斋]
 
-        //说明：以ArrayList 实现类来演示
+
 
     }
 }
