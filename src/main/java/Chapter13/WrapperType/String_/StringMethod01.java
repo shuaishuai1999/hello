@@ -37,6 +37,6 @@ public class StringMethod01 {
         String name = "hello,张三"; //下面 name.substring(6) 从索引 6 开始截取后面所有的内容
         System.out.println(name.substring(6));//截取后面的字符
         //name.substring(0,5)表示从索引 0 开始截取，截取到索引 5-1=4 位置
-        System.out.println(name.substring(2,5));//llo
+        System.out.println(name.substring(2, 5));//llo
     }
 }
