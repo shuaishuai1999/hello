@@ -63,7 +63,7 @@ public class StringMethod02 {
         String name = "john";
         int age = 10;
         double score = 56.857;
-        char gender = '男';
+        char gender = 'm';
         //将所有的信息都拼接在一个字符串.
         String info = "我的姓名是" + name + "年龄是" + age + ",成绩是" + score + "性别是" + gender + "。希望大家喜欢我！ ";
         System.out.println(info);
