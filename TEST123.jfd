@@ -1,0 +1,108 @@
+JFDML JFormDesigner: "7.0.5.4.420" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class info.clearthought.layout.TableLayout ) {
+			"$columnSpecs": "pref, pref, pref, pref, pref, pref, pref, pref, pref, pref, pref"
+			"$rowSpecs": "pref"
+			"hGap": 5
+			"vGap": 5
+		} ) {
+			name: "this"
+			"background": sfield java.awt.Color black
+			add( new FormComponent( "javax.swing.JCheckBoxMenuItem" ) {
+				name: "checkBoxMenuItem1"
+				"text": "text"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "不哈"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 1
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textArea1"
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 2
+			} )
+			add( new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar1"
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu1"
+					"text": "text"
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu2"
+					"text": "text"
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu3"
+						"text": "text"
+						add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+							name: "menu4"
+							"text": "text"
+						} )
+					} )
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 3
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "passwordField1"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 4
+			} )
+			add( new FormComponent( "javax.swing.JMenuItem" ) {
+				name: "menuItem1"
+				"text": "text"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 5
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "text"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 6
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox1"
+				"text": "text"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 7
+			} )
+			add( new FormComponent( "javax.swing.JToggleButton" ) {
+				name: "toggleButton1"
+				"text": "text"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 8
+			} )
+			add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+				name: "formattedTextField1"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 9
+			} )
+			add( new FormComponent( "javax.swing.JRadioButtonMenuItem" ) {
+				name: "radioButtonMenuItem1"
+				"text": "text"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.TableConstraints ) {
+				"gridX": 10
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 95, 20 )
+			"size": new java.awt.Dimension( 590, 385 )
+		} )
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill]"
+			"$rowConstraints": "[][][]"
+		} ) {
+			name: "dialog1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 125, 420 )
+			"size": new java.awt.Dimension( 200, 200 )
+		} )
+	}
+}
